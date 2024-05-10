@@ -72,6 +72,8 @@ if page == "Pengenalan":
                 14. **Adaptivity Level**: Berisi tingkat kemampuan beradaptasi siswa. Kolom ini merupakan kolom target.
                 """)
 
+    st.write("*Link Dataset: <a href='https://www.kaggle.com/datasets/mdmahmudulhasansuzan/students-adaptability-level-in-online-education'>Students Adaptability Level in Online Education</a>", unsafe_allow_html=True)
+
 # Halaman Visualisasi Data
 elif page == "Visualisasi Data":
     selected_category = st.sidebar.selectbox("Halaman",
